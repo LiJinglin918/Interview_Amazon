@@ -28,6 +28,8 @@ public class DayChange {
 		
 		// 用pre存储之前的元素
 		int pre = 0;
+		
+		// 外层for, 改变n次。
 		for (int i = 0; i < n; i++) {
 			// 用pre记录i之前的数，实际上就是新数组里面的数。
 			pre = rvalue[0];
